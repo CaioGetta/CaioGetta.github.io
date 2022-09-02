@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: large;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    text-align: center;
+ 
+}
+h2{
+    text-align: center;
+}
+body{
+    background-color: rgb(182, 182, 182);
+  border: 5px dashed rgba(223, 134, 0, 0.473);
+}
+figure{
+    text-align: center;
+}
+ol{
+    text-align: center;
+}
+div{
+   /* background-image: url(https://s2.glbimg.com/zx5dlKpOcTOKZ6s4j6_3HNfm9fE=/e.glbimg.com/og/ed/f/original/2019/05/23/astronomy-discovery-earth-2422.jpg);
+   */
+   display: inline-block;
+   text-align: center;
+   margin-left: 42%;
+   background-color: rgba(220, 20, 60, 0.233);
+   border: rgba(2, 30, 54, 0.623) solid 4px;
+}
+article{
+    border-color: teal;
+    border-style: dashed;
+    border-width: 0.1cm;
+    text-decoration: underline  ;
+}
+h2{
+    text-decoration: overline;
+
+}
