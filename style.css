@@ -1,4 +1,4 @@
-h1{
+#Titulo{
     text-align: center;
     color: white;
     background-color: black;
@@ -6,39 +6,103 @@ h1{
     font-weight: 200;
     font-family: 'Courier New', Courier, monospace;
 }
-p{
+.pmain{
     text-align: center;
  
 }
-h2{
+#Texto1{
     text-align: center;
+    text-decoration: overline;
 }
-body{
-    background-color: rgb(182, 182, 182);
-  border: 5px dashed rgba(223, 134, 0, 0.473);
+#Texto2{
+    text-align: center;
+    text-decoration: overline;
 }
-figure{
+#main{
+    background-color: rgb(255, 219, 101);
+  border: 5px solid  orange;
+}
+#imagemain{
     text-align: center;
 }
 ol{
     text-align: center;
 }
-div{
+#divmain{
    /* background-image: url(https://s2.glbimg.com/zx5dlKpOcTOKZ6s4j6_3HNfm9fE=/e.glbimg.com/og/ed/f/original/2019/05/23/astronomy-discovery-earth-2422.jpg);
    */
    display: inline-block;
    text-align: center;
-   margin-left: 42%;
-   background-color: rgba(220, 20, 60, 0.233);
+   padding-right: 5px;
+   padding-left: 5px;
+   
+   background-color: rgba(20, 173, 220, 0.233);
    border: rgba(2, 30, 54, 0.623) solid 4px;
 }
-article{
+.art1{
     border-color: teal;
     border-style: dashed;
     border-width: 0.1cm;
     text-decoration: underline  ;
 }
-h2{
-    text-decoration: overline;
+#tituloform{
+    margin: 4px; 
+    text-align: center;
+}
 
+#tb1, .tdtb, .thtb{
+    margin: auto;
+    border: black 5px solid;
+    border-collapse: collapse;
+}
+
+#bodylogin{
+    border: solid orange 5px;
+    background-color: rgb(255, 229, 83);
+    margin: auto;
+}
+
+#bodytable{
+    font-size: xx-large;
+    text-align: center;
+    border: solid orange 5px;
+    background-color: rgb(255, 229, 83);
+}
+
+#bodyform{
+    border: solid orange 5px;
+    background-color: rgb(255, 229, 83);
+    margin: auto;
+}
+
+
+#inform{
+    /*display: block;
+    margin: auto;
+    */
+  margin: 4px;
+  padding: 2px;
+}
+
+#aslog{
+    text-align: center;
+}
+
+.plogin{
+    padding: 4px;
+    text-align: center;
+}
+
+.pform{
+    padding: 4px;
+    text-align: center;
+}
+ 
+#blockcenterpls{
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }

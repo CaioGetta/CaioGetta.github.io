@@ -5,22 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body id="bodyform">
+    <header id="tituloform">
+        <h1>Formulário de Inscrição</h1>
+        <h2>Preencha seus dados</h2>
+    </header>
     <main>
-    <h1>Formulário de Inscrição</h1>
-    <h2>Preencha seus dados</h2>
-    <p>Nome:<input type="text" name="name" placeholder="Seu nome"></p>
-    <p>E-mail:<input type="text" name="email" placeholder="Coloque o seu E-mail"></p>
-    <p>Endereço:<input type="text" name="endereço" size="30" placeholder="Seu endereço"></p>
-    <p>Cidade:<input type="text" name="cidade" size="30" placeholder="Cidade que vive"></p>
-    <p>Telefone:<input type="text" name="ddd" size="1" maxlength="2" placeholder="DDD"> <input type="text" name="numero" size="13" maxlength="9" placeholder="Seu numero"></p>
-    <p>Usuario:<input type="text" name="user" placeholder="Seu login"></p>
-    <p>Senha:<input type="password" name="senha" size="15" maxlength="8" placeholder="Sua senha"></p>
-</main>
+    <p class="pform">Nome:<input type="text" name="name" placeholder="Seu nome"></p>
+    <p class="pform">E-mail:<input type="text" name="email" placeholder="Coloque o seu E-mail"></p>
+    <p class="pform">Endereço:<input type="text" name="endereço" size="30" placeholder="Seu endereço"></p>
+    <p class="pform">Cidade:<input type="text" name="cidade" size="30" placeholder="Cidade que vive"></p>
+    <p class="pform">Telefone:<input type="text" name="ddd" size="1" maxlength="2" placeholder="DDD"> <input type="text" name="numero" size="13" maxlength="9" placeholder="Seu numero"></p>
+    <p class="pform">Usuario:<input type="text" name="user" placeholder="Seu login"></p>
+    <p class="pform">Senha:<input type="password" name="senha" size="15" maxlength="8" placeholder="Sua senha"></p>
+    </main>
    <aside>
-    <input type="submit" name="Envie sua inscrição" value="Envie sua inscrição">
+    <div id="blockcenterpls">
+    <input type="submit" name="Envie sua inscrição" value="Envie sua inscrição" id="inform" >
+
     <p><a href="index.html">Enviar</a></p>
+</div>
 </aside>
 
 </body>
